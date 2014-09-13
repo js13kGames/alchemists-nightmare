@@ -1,10 +1,5 @@
-﻿// 
-//  4Elements
-//
-
-/////////////////////
-
-// shim layer with setTimeout fallback
+﻿///////////////////// 
+// shim layer with setTimeout fallback -- http://www.paulirish.com/2011/requestanimationframe-for-smart-animating/
 window.requestAnimFrame = (function () {
     return window.requestAnimationFrame ||
             window.webkitRequestAnimationFrame ||
@@ -14,6 +9,12 @@ window.requestAnimFrame = (function () {
             };
 })();
 /////////////////////
+/////////////////////
+
+// 
+//  Alchemist's Nightmare 
+//  Made for js13kgames 2014
+//
 
 var SO_ID = 0
 var SO_NAME = 1;
