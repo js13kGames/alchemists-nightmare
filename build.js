@@ -25,12 +25,12 @@ exec("uglifyjs2.cmd js/engine.js > build/engine.min.js -c -m", function (error, 
     fs.writeFileSync('build/index.html', htmlMin);
 
     // create zip
-    var zip = fs.createWriteStream('4Elements.zip');
+    var zip = fs.createWriteStream('AlchemistsNightmare.zip');
     var archive = archiver('zip');
 
     zip.on('close', function () {
         var zipSize = archive.pointer() / 1024;
-        var current = ("4Elements.zip " + zipSize.toFixed(2) + "KB zipped").bold.white;
+        var current = ("AlchemistsNightmare.zip " + zipSize.toFixed(2) + "KB zipped").bold.white;
         var left = 13.0 - zipSize;
 
         left = left > 0.0 ? (left.toFixed(2) + "KB left!").green : (left.toFixed(2) + "KB over!").red;
@@ -45,7 +45,7 @@ exec("uglifyjs2.cmd js/engine.js > build/engine.min.js -c -m", function (error, 
                 expand: true,
                 cwd: 'build',
                 src: ['**'],
-                dest: '4Elements'
+                dest: 'AlchemistsNightmare'
             }
         ]);
 

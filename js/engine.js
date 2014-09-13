@@ -349,8 +349,8 @@ function main()
             [
                 [0, "Player", drawPlayer, "727272", width / 2, height / 2, 0, 0, false, width / 2, height / 2, 0, false, null, 1, false, true, "bold 16px Arial", 40, 40, 1000, 1000, 3, true, 0],
 
-                [0, "The large symbol above is you!", drawPlayer, "E8FFFB", width / 2 + 20, height / 2 + 20, 0, 0, false, width / 2 + 20, height / 2 + 20, 2, false, null, 1, true, false, "italic 14px Arial", 40, 40, 0, 1000, 10, true, 0],
-                [0, "Right clicking moves; Q, W, E, R switches element and left click shoots the current element.", drawPlayer, "E8FFFB", width / 2 + 100, height / 2 + 45, 0, 0, false, width / 2 + 100, height / 2 + 45, 4, false, null, 1, true, false, "italic 14px Arial", 40, 40, 0, 1000, 10, true, 0],
+                [0, "The large symbol above is you!", drawPlayer, "E8FFFB", width / 2 + 20, height / 2 + 20, 0, 0, false, width / 2 + 20, height / 2 + 20, 6, false, null, 1, true, false, "italic 14px Arial", 40, 40, 0, 1000, 10, true, 0],
+                [0, "Right clicking moves; Q, W, E, R switches element and left click shoots the current element.", drawPlayer, "E8FFFB", width / 2 + 100, height / 2 + 45, 0, 0, false, width / 2 + 100, height / 2 + 45, 6, false, null, 1, true, false, "italic 14px Arial", 40, 40, 0, 1000, 10, true, 0],
 
                 [0, "Fire", drawFire, "A0A0A0", width - 400, height + 100, 30, 30, false, width - 320, height - 80, 0, false, null, 3, true, true, "bold 16px Arial", 30, 30, 0, 0, 3, false, 0],
                 [0, "Fire_ACTIVE", drawFire, "FF1000", width - 400, height + 100, 30, 30, false, width - 320, height - 80, 0, false, null, 3, false, false, "bold 16px Arial", 30, 30, 0, 0, 3, false, 0],
